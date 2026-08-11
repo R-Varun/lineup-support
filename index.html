@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lineup — Support</title><link rel="stylesheet" href="style.css">
+<main>
+<h1>Lineup</h1>
+<p class="lede">A player for the IPTV source you already have.</p>
+<div class="rule"></div>
+
+<h2>What it is, and what it is not</h2>
+<p>Lineup plays an M3U playlist, an Xtream-compatible login, or a MAG portal that <strong>you</strong> supply. It ships with no channels, no playlists, no directory of providers, and no way to find one from inside the app. Until you add your own source there is nothing to watch. It is not a subscription, and it does not sell or resell access to anything.</p>
+
+<h2>Adding your source</h2>
+<ul>
+<li><strong>Playlist link</strong> — an M3U or M3U8 address, plus an optional XMLTV guide URL.</li>
+<li><strong>Xtream login</strong> — the server address, username and password your provider gave you.</li>
+<li><strong>MAG portal</strong> — the portal address and the MAC address registered with it.</li>
+</ul>
+<p>Not ready to paste anything? Tap <strong>Look around first</strong> on the opening screen. That loads a sample lineup of invented channels so you can see the app working. It disappears as soon as you add a real source.</p>
+
+<h2>Common problems</h2>
+<p><strong>Channels load but the guide is blank.</strong> Open Settings and look at EPG Health. It counts how many channels matched the guide and gives a reason for each gap. Usually the playlist's <code>tvg-id</code> values do not appear in the EPG feed, which is something only your provider can fix.</p>
+<p><strong>A channel will not play.</strong> The player names the cause rather than showing a black screen. A stream this build cannot decode is reported as such; recording, catch-up and multiview are not features of this app.</p>
+<p><strong>The guide looks out of date.</strong> Pull down on the guide to refresh, or reopen the app; it tops up automatically when it has been away.</p>
+<p><strong>Times are wrong by a fixed number of hours.</strong> Set the guide offset on the source, in Settings.</p>
+
+<h2>Your credentials</h2>
+<p>They stay in your device's Keychain. There is no account, and no server of ours in the path: the app talks to the provider you configured and nobody else. See the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:varun.rama@gmail.com">varun.rama@gmail.com</a>. Please include your device model, iOS version, and what you were doing. Never send us your provider password, portal MAC, or a playlist URL: those are credentials, and we do not want them.</p>
+
+<footer>
+<nav><a href="index.html">Support</a><a href="privacy.html">Privacy</a></nav>
+Lineup is an independent app. It is not affiliated with any television provider.
+</footer>
+</main>
