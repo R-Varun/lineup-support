@@ -13,12 +13,16 @@
 <h2>We have no server</h2>
 <p>There is no backend belonging to this app. When you add a source, the app talks directly to the provider you configured, from your device. Nothing is proxied through us, because there is no "us" in the network path to proxy through.</p>
 
+<h2>The sample lineup</h2>
+<p>If you tap <strong>Look around first</strong>, the app loads a sample lineup so you can see it working before adding your own source. Its channel names, artwork and on-demand titles are invented and bundled with the app. Its video comes from two places: a short clip we made, which is also bundled, and a handful of public test streams hosted by third parties. Playing those means their servers receive an ordinary request from your device, including your IP address, exactly as any website would. We receive nothing from it.</p>
+<p>The sample disappears as soon as you add a real source, and you can remove it yourself at any time.</p>
+
 <h2>Your provider credentials</h2>
 <p>Your Xtream username and password, or your portal MAC address, are stored in your device's Keychain. They are sent only to the provider you entered them for, and never to us or to anyone else. If you use iCloud Keychain they sync between your own devices under Apple's encryption; we have no access to that.</p>
 <p>Some providers embed credentials directly in stream URLs. The app redacts anything credential-shaped from every log, error message, and diagnostic screen, so a screenshot of an error cannot leak your subscription.</p>
 
 <h2>What stays on your device</h2>
-<p>Your channel list, guide data, favourites, watch history, recent searches, and cached artwork are stored locally. Deleting the app deletes all of it. None of it is backed up to us.</p>
+<p>Your channel list, guide data, favourites, watch history, recent searches, and cached artwork are stored locally. Artwork is fetched from your provider, so your provider sees those requests, as it does for the streams themselves. Deleting the app deletes all of it. None of it is backed up to us.</p>
 
 <h2>Children</h2>
 <p>The app collects no data from anyone, including children. It plays whatever source its user supplies, and we neither select nor filter that content.</p>
